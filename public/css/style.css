@@ -41,15 +41,97 @@ body {
   border-bottom: solid 2px #EC008C;
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-bottom: 40px;
 }
+@media (min-width:992px) {
+  .container-no-padding {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.grid {
+  height: calc(100vh - 143px);
+}
+@media (min-width: 768px) {
+  .grid {
+    height: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .grid {
+    height: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .grid {
+    height: 1170px;
+  }
+}
+.grid-elements {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    "work1 work1 work2 work2 work3 work3"
+    "work1 work1 work2 work2 work3 work3"
+    "work4 work4 logo1 logo2 work3 work3"
+    "work4 work4 work5 work5 logo3 logo3"
+    "work6 work6 work6 logo4 work7 work7"
+    "work6 work6 work6 logo4 work7 work7"
+}
+.grid-el {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  line-height: 0.9em;
+  display: flex;
+  align-items: flex-end;
+  padding: 5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .grid-el {
+    padding: 5px;
+    font-size: 2.3em;
+  }
+}
+@media (min-width: 992px) {
+  .grid-el {
+    padding: 15px;
+    font-size: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  .grid-el {
+    font-size: 4em;
+  }
+}
+.grid-el.last {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+.work1 { background-color: #EC008C; grid-area: work1; }
+.work2 { background-color: #FCAF17; grid-area: work2; }
+.work3 { background-color: #7D4D9F; grid-area: work3; }
+.work4 { background-color: #6DC8BD; grid-area: work4; }
+.work5 { background-color: #80D0DC; grid-area: work5; }
+.work6 { background-color: #7D4D9F; grid-area: work6; }
+.work7 { background-color: #F15A29; grid-area: work7; }
+.logo1 { background-color: #FFFFFF; grid-area: logo1; border: solid 2px #7D4D9F; color: #7D4D9F; }
+.logo2 { background-color: #FFFFFF; grid-area: logo2; border: solid 2px #EC008C; color: #EC008C; }
+.logo3 { background-color: #FFFFFF; grid-area: logo3; border: solid 2px #80D0DC; color: #80D0DC; }
+.logo4 { background-color: #FFFFFF; grid-area: logo4; border: solid 2px #FCAF17; color: #FCAF17; }
 
+/* MONALISA OVERHIDE */
 a {
   color: #EC008C;
 }
 .navbar-default {
-  padding: 20px;
+  padding: 15px 15px 0 15px;
   background-color: #fff;
-  border-color: transparent;
+  border: none;
 }
 .navbar-brand {
   padding: 8px;
