@@ -29,6 +29,10 @@ body {
   padding-left: 40px;
   padding-right: 40px;
 }
+.heading-container > p {
+  font-size: 2em;
+  color: #F15A29;
+}
 @media (max-width:768px) {
   .heading {
     font-size: 2.3em;
@@ -124,6 +128,22 @@ body {
 .logo3 { background-color: #FFFFFF; grid-area: logo3; border: solid 2px #80D0DC; color: #80D0DC; }
 .logo4 { background-color: #FFFFFF; grid-area: logo4; border: solid 2px #FCAF17; color: #FCAF17; }
 
+.featured-content {
+  font-size: 3em;
+  padding: 40px;
+  color: #FFFFFF;
+}
+.featured-content-a {
+  background-color: #80D0DC;
+}
+.featured-content-b {
+  background-color: #7D4D9F;
+}
+.timeline-box {
+  border: solid 2px #EC008C;
+  margin: 50px 0;
+}
+
 /* MONALISA OVERHIDE */
 a {
   color: #EC008C;
@@ -141,7 +161,7 @@ a {
   height: 80px;
   width: 80px;
 }
-.navbar-brand:hover, .navbar-brand:active {
+.navbar-brand:hover, .navbar-brand:active, .navbar-brand.active {
    border-color: #80D0DC;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
