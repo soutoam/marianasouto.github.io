@@ -112,13 +112,13 @@ body {
   margin-right: 0;
   margin-bottom: 10px;
 }
-.work1 { background-color: #EC008C; grid-area: work1; background-image: url("../img/wikilibras.svg"); }
-.work2 { background-color: #FCAF17; grid-area: work2; background-image: url("../img/diferentonas.svg");  }
-.work3 { background-color: #7D4D9F; grid-area: work3; background-image: url("../img/contribua.svg");  }
-.work4 { background-color: #6DC8BD; grid-area: work4; }
-.work5 { background-color: #80D0DC; grid-area: work5; background-image: url("../img/WS.png");  }
-.work6 { background-color: #7D4D9F; grid-area: work6; background-image: url("../img/fold.png");  }
-.work7 { background-color: #F15A29; grid-area: work7; }
+.work1 { background-color: #EC008C; grid-area: work1; background-image: url("../img/work_wikilibras.png"); }
+.work2 { background-color: #FCAF17; grid-area: work2; background-image: url("../img/work_diferentonas.png"); }
+.work3 { background-color: #7D4D9F; grid-area: work3; background-image: url("../img/work_contribua.png"); }
+.work4 { background-color: #6DC8BD; grid-area: work4; background-image: url("../img/work_deciframe.png"); }
+.work5 { background-color: #80D0DC; grid-area: work5; background-image: url("../img/work_ws.png"); }
+.work6 { background-color: #7D4D9F; grid-area: work6; background-image: url("../img/work_tcc.png"); }
+.work7 { background-color: #F15A29; grid-area: work7; background-image: url("../img/work_fold.png"); }
 .logo1 { background-color: #FFFFFF; grid-area: logo1; border: solid 2px #7D4D9F; color: #7D4D9F; }
 .logo2 { background-color: #FFFFFF; grid-area: logo2; border: solid 2px #EC008C; color: #EC008C; }
 .logo3 { background-color: #FFFFFF; grid-area: logo3; border: solid 2px #80D0DC; color: #80D0DC; }
