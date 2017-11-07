@@ -187,11 +187,11 @@ body {
   left: -10px;
   z-index: 1000;
 }
-.timeline-entry-title.timeline-entry-title-odd {
+.timeline-entry-odd > div > .timeline-entry-title {
   text-align: right;
   margin: 0 20px 0 0;
 }
-.timeline-entry-title.timeline-entry-title-odd:before {
+.timeline-entry-odd > div > .timeline-entry-title:before {
   left: inherit;
   right: -10px;
 }
@@ -199,6 +199,9 @@ body {
   text-align: right;
   padding: 10px 20px 20px 20px;
   font-size: 1.2em;
+}
+.timeline-entry-odd > div > .timeline-entry-text {
+  text-align: left;
 }
 /* END TIMELINE */
 
