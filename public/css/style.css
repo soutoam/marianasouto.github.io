@@ -92,8 +92,6 @@ body {
   margin-bottom: 10px;
   color: #fff;
   line-height: 0.9em;
-  display: flex;
-  align-items: flex-end;
   padding: 5px;
   font-size: 0.9em;
   font-weight: bold;
@@ -120,17 +118,32 @@ body {
   margin-right: 0;
   margin-bottom: 10px;
 }
-.work1 { background-color: #EC008C; grid-area: work1; background-image: url("../img/work_wikilibras.png"); }
-.work2 { background-color: #FCAF17; grid-area: work2; background-image: url("../img/work_diferentonas.png"); }
-.work3 { background-color: #7D4D9F; grid-area: work3; background-image: url("../img/work_contribua.png"); }
-.work4 { background-color: #6DC8BD; grid-area: work4; background-image: url("../img/work_deciframe.png"); }
-.work5 { background-color: #80D0DC; grid-area: work5; background-image: url("../img/work_ws.png"); }
-.work6 { background-color: #7D4D9F; grid-area: work6; background-image: url("../img/work_tcc.png"); }
-.work7 { background-color: #F15A29; grid-area: work7; background-image: url("../img/work_fold.png"); }
-.logo1 { background-color: #FFFFFF; grid-area: logo1; border: solid 2px #7D4D9F; color: #7D4D9F; }
-.logo2 { background-color: #FFFFFF; grid-area: logo2; border: solid 2px #EC008C; color: #EC008C; }
-.logo3 { background-color: #FFFFFF; grid-area: logo3; border: solid 2px #80D0DC; color: #80D0DC; }
-.logo4 { background-color: #FFFFFF; grid-area: logo4; border: solid 2px #FCAF17; color: #FCAF17; }
+.work1 { background-color: #EC008C; grid-area: work1; background-image: url("../img/work_wikilibras.png");  } .work1 > a {color: #FFFFFF;}
+.work2 { background-color: #FCAF17; grid-area: work2; background-image: url("../img/work_diferentonas.png");} .work2 > a {color: #FFFFFF;}
+.work3 { background-color: #7D4D9F; grid-area: work3; background-image: url("../img/work_contribua.png");   } .work3 > a {color: #FFFFFF;}
+.work4 { background-color: #6DC8BD; grid-area: work4; background-image: url("../img/work_deciframe.png");   } .work4 > a {color: #FFFFFF;}
+.work5 { background-color: #80D0DC; grid-area: work5; background-image: url("../img/work_ws.png");          } .work5 > a {color: #FFFFFF;}
+.work6 { background-color: #7D4D9F; grid-area: work6; background-image: url("../img/work_tcc.png");         } .work6 > a {color: #FFFFFF;}
+.work7 { background-color: #F15A29; grid-area: work7; background-image: url("../img/work_fold.png");        } .work7 > a {color: #FFFFFF;}
+.logo1 { background-color: #FFFFFF; grid-area: logo1; border: solid 2px #7D4D9F; } .logo1 > a {color: #7D4D9F;}
+.logo2 { background-color: #FFFFFF; grid-area: logo2; border: solid 2px #EC008C; } .logo2 > a {color: #EC008C;}
+.logo3 { background-color: #FFFFFF; grid-area: logo3; border: solid 2px #80D0DC; } .logo3 > a {color: #80D0DC;}
+.logo4 { background-color: #FFFFFF; grid-area: logo4; border: solid 2px #FCAF17; } .logo4 > a {color: #FCAF17;}
+
+.grid-el > a {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+.grid-el > a:link,
+.grid-el > a:visited {
+  text-decoration: none;
+}
+.grid-el > a:hover,
+.grid-el > a:active {
+  text-decoration: none;
+}
 
 .featured-content {
   font-size: 1em;
