@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Mariana Souto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="public/img/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="public/manifest.json">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Mariana Souto">
+    <meta name="apple-mobile-web-app-title" content="Mariana Souto">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="msapplication-navbutton-color" content="#FFFFFF">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="https://marianasouto.me/public/img/icon32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="https://marianasouto.me/public/img/icon48.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://marianasouto.me/public/img/icon96.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="https://marianasouto.me/public/img/icon128.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="https://marianasouto.me/public/img/icon144.png">
+    <link rel="icon" type="image/png" sizes="152x152" href="https://marianasouto.me/public/img/icon152.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://marianasouto.me/public/img/icon192.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://marianasouto.me/public/img/iconbg180.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="https://marianasouto.me/public/img/iconbg167.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="https://marianasouto.me/public/img/iconbg152.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="https://marianasouto.me/public/img/iconbg120.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container navbar-container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img src="public/img/ms.svg" alt="Mariana Souto" width="60" height="60">
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="works.html">Works</a></li>
+            <li class="active"><a href="aboutme.html">About me <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container container-theme">
+      <div class="heading-container">
+        <h1 class="heading">Olá, meu nome é Mariana, sou uma desenhista industrial apaixonada - <strong>muito apaixonada</strong> - por Design</h1>
+        <br>
+        <p>Geometria, cor e outros conceitos de psicologia aplicados ao processo, uso da inovação tecnológica a fim de tornar coisas eficientes são os aspectos que me motivam no design.</p>
+        <p>Acredito na importância dos princípios básicos do design, e que com multidisciplinaridade ele será capaz de desenvolver tudo - de roupa íntima a avião.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="featured-content featured-content-a">
+            <p><strong>"If you can design a thing, you can design everything."</strong></p>
+            <p class="text-right">Massimo Vignelli</p>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="featured-content featured-content-b">
+            <p><strong>"Design is so simple, that's why it's so complicated."</strong></p>
+            <p class="text-right">Paul Rand</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-box">
+
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="timeline-entry-text">
+              Nasci dia 7 de Junho em João Pessoa uma cidade litorânea do Nordeste do Brasil - eu amo praias, mas passei a vida quase inteira em Campina Grande.
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="timeline-entry-title">1988</div>
+          </div>
+        </div>
+
+        <div class="row timeline-entry-odd">
+          <div class="col-xs-6">
+            <div class="timeline-entry-title">1996</div>
+          </div>
+          <div class="col-xs-6">
+            <div class="timeline-entry-text">
+              Por amar desenhar e trabalhos manuais, entrei no meu primeiro curso de desenho e pintura.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="timeline-entry-text">
+              Pela primeira vez na vida saí do Brasil, fui para Nova Jersey morar um ano com meus pais e minha irmã. Escutei de um professor - Mr Macy - que um dia deveria voltar pra estudar artes nos Estados Unidos.
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="timeline-entry-title">1998</div>
+          </div>
+        </div>
+
+        <div class="row timeline-entry-odd">
+          <div class="col-xs-6">
+            <div class="timeline-entry-title">2007</div>
+          </div>
+          <div class="col-xs-6">
+            <div class="timeline-entry-text">
+              Comecei a cursar Desenho Industrial na Universidade Federal de Campina Grande. Nossa escola parte do princípio que design só existe se existir um usuário - o human centered design é algo implícito no nosso dia a dia como aluno.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="timeline-entry-text">
+              Tive minha primeira experiência acadêmica profissional através da monitoria em ergonomia e design. Fui finalista num concurso nacional de móveis, fiquei entre os 5 melhores projetos e pela primeira vez vi um produto pensado por mim ser executado.
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="timeline-entry-title">2009</div>
+          </div>
+        </div>
+
+        <div class="row timeline-entry-odd">
+          <div class="col-xs-6">
+            <div class="timeline-entry-title">2010</div>
+          </div>
+          <div class="col-xs-6">
+            <div class="timeline-entry-text">
+              Tive minha primeira experiência profissional no mercado de trabalho. Estagiei como Fashion Designer numa fábrica de algodão colorido - inovação tecnológica que permite que o algodão nasca em 4 diferentes cores, sem precisar ser tingido posteriormente.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="timeline-entry-text">
+              Estagiei como Interior Designer, foi uma experiência interessante pra mim porque tive que lidar diretamente com clientes para trazer soluções para os problemas deles.
+              Finalizei meu bacharelado em Desenho Industrial - desenvolvi um produto com conceitos de emotional design.
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="timeline-entry-title">2011</div>
+          </div>
+        </div>
+
+        <div class="row timeline-entry-odd">
+          <div class="col-xs-6">
+            <div class="timeline-entry-title">2012</div>
+          </div>
+          <div class="col-xs-6">
+            <div class="timeline-entry-text">
+              Participei de um curso de verão com tema de sustentabilidade oferecido pela Universidade Federal do Paraná, onde desenvolvi juntamente com colegas um artigo.
+              Assinei pela primeira vez minha carteira de trabalho na Laboremus, foi uma uma escola para mim. Trabalhei com diferentes pessoas, diretamente com a produção de máquinas agrícolas.
+              O objetivo do meu trabalho era otimizar os gastos e processos através das peças dos produtos, para isto redesenhei peças, eliminei outras, organizei os manuais de montagem e execução para facilitar o entendimento dos funcionários que trabalhavam no chão de fábrica.
+              Este trabalho me proporcionou a cima de tudo capacidade organizacional.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="timeline-entry-text">
+              Eurotrip! Alemanha/Holanda/Inglaterra
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="timeline-entry-title">2014</div>
+          </div>
+        </div>
+
+        <div class="row timeline-entry-odd">
+          <div class="col-xs-6">
+            <div class="timeline-entry-title">2015</div>
+          </div>
+          <div class="col-xs-6">
+            <div class="timeline-entry-text">
+              Iniciei um curso de modelagem e costura, resolvi me especializar num hobby que sempre foi minha paixão devido a conviver toda minha vida no ateliê de costura da minha avó - costureira de mão cheia. Comecei a trabalhar num laboratório de computação da UFCG - Laboratório de Sistemas Distribuídos, onde dei meus primeiros passos profissionais voltados a interfaces digitais - lá trabalhei em vários projetos de inovação e engajamento social através de desenvolvimento de apps. Trabalhando junto aos desenvolvedores, desenvolvi protótipos através de ferramentas afim de melhorar a comunicação das minhas ideias ao mesmo tempo que aprendi a linguagem técnica deles - além de aprender o básico da programação através de um curso da codecademy voltado a CSS e Html.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="timeline-entry-text">
+              Ganhei juntamente com outros 4 colegas do LSD um concurso nacional promovido pelo governo Brasileiro, o objetivo era o desenvolvimento de apps em combate a corrupção, o nosso - As Diferentonas - ganhou por se tratar de um aplicativo que abordava de forma mais divertida um tema considerado tão chato. Graças ao app, brasileiros podem acompanhar dados de onde o dinheiro público está sendo gasto de forma mais simples através do uso de filtros, e ter a chance de denunciar possíveis situações ilegais. Casei <3
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="timeline-entry-title">2016</div>
+          </div>
+        </div>
+
+        <div class="row timeline-entry-odd">
+          <div class="col-xs-6">
+            <div class="timeline-entry-title">2017</div>
+          </div>
+          <div class="col-xs-6">
+            <div class="timeline-entry-text">
+              Me mudei para San Francisco. A realização de um sonho pra mim; morar em uma cidade com tanta história e diferentes culturas. Sou uma pessoa que gosta de mudanças e novas experiências.
+              Desde que cheguei aqui em fevereiro, procurei fazer coisas que me inspiram;
+              Curso de Desenho Avançado na SFAI | Curso de modelagem na AAU
+              Mestrado em Design na San Francisco State University.
+              Todos esses aspectos que passaram pela minha vida me fizeram designer <3
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>

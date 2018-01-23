@@ -144,7 +144,15 @@ body {
 .grid-el > a:active {
   text-decoration: none;
 }
-
+.featured-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #EC008C;
+}
+.featured-text {
+  color: #EC008C;
+  font-size: 1.2em;
+}
 .featured-content {
   font-size: 1em;
   padding: 10px;
@@ -260,4 +268,11 @@ a {
   background-color: #fff;
   border-color: #80D0DC;
   color: #EC008C;
+}
+
+/* ABOUT ME */
+.container-about-me {
+  background-image: url("../img/bg_aboutme.png");
+  background-repeat: no-repeat;
+  background-position: center top;
 }
